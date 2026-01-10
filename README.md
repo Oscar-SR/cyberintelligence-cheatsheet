@@ -1,4 +1,4 @@
-# Cyberintelligence Cheatsheet
+# Cyberintelligence cheatsheet
 
 This project uses **MkDocs** with the **Material** theme.
 

@@ -173,9 +173,9 @@ Media monitoring tools aggregate and analyze digital news sources at local, nati
 | **Key Features** | <ul><li>Global news coverage</li><li>Event metadata</li><li>Geopolitical indicators</li></ul> |
 | **License** | Free |
 
-## Geo-OSINT
+## GEOINT
 
-Geo-OSINT tools leverage geospatial data such as satellite imagery, sensor feeds, and location-based tracking systems. These sources allow analysts to verify locations, monitor physical movements, and correlate events in the real world with digital information.
+GEOINT tools leverage geospatial data such as satellite imagery, sensor feeds, and location-based tracking systems. These sources allow analysts to verify locations, monitor physical movements, and correlate events in the real world with digital information.
 
 | <h2>Sentinel-2</h2> | |
 |---------------------|---|

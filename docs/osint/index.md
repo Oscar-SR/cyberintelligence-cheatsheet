@@ -30,7 +30,7 @@ Therefore, an intelligence requirement is the defining element that triggers the
 - **2022–present:**  
   The war in Ukraine and the popularization of generative AI have made OSINT a primary source of real-time situational awareness, capable of verifying military movements via satellite images and geolocated videos shared by the community.
 
-## Current Scope
+## Current situation
 
 Nowadays, the scope and relevance of OSINT have been amplified, mainly due to these three factors:
 
@@ -40,7 +40,7 @@ Nowadays, the scope and relevance of OSINT have been amplified, mainly due to th
 
 3. **Regulatory maturity:** Frameworks such as GDPR or the EU AI Act require the integration of privacy and transparency, professionalizing the discipline.
 
-## Practical examples
+## Use cases
 
 - **Conflict verification:** Analysis of satellite images and videos to confirm movements and damages almost in real time.
 
