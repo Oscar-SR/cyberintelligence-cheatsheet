@@ -4,7 +4,7 @@
 
 <a id="3"></a>[3] C. Reffgen and N. Felber, *Admiralty Code for the Verification of Information*, Enterprise Open Systems, 11 Mar. 2025. [Online]. Available: https://eosgmbh.com/en/admiralty-code-for-the-verification-of-information/. Retrieved Jan. 10, 2026.
 
-<a id="4"></a>[4] *The Intelligence Cycle* (HTML), Central Intelligence Agency (CIA), 23 Mar. 2013. [Online]. Archived from the original (HTML) on 08 May 2020. Available: https://web.archive.org/web/20200508151219/https://www.cia.gov/kids-page/6-12th-grade/who-we-are-what-we-do/the-intelligence-cycle.html. Retrieved Jan. 10, 2026.
+<a id="4"></a>[4] *The Intelligence Cycle* (HTML), Central Intelligence Agency (CIA), 23 Mar. 2013. [Online]. Archived from the original (HTML) on 08 May 2020. Available: https://www.cia.gov/kids-page/6-12th-grade/who-we-are-what-we-do/the-intelligence-cycle.html. Retrieved Jan. 10, 2026.
 
 <a id="5"></a>[5] Telefónica Tech, *Cyber Intelligence*, Techiepedia. [Online]. Available: https://telefonicatech.com/en/techiepedia/cyber-intelligence. Retrieved Jan. 10, 2026.
 
