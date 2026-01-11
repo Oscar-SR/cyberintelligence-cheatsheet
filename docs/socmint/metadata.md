@@ -67,7 +67,11 @@ In SOCMINT, analysts usually work with different levels of information, or “fi
 ## Recommendations
 
 - Convert all dates to **UTC ISO 8601** and retain the platform’s original timestamp value.
+
 - Preserve evidence by saving captures (HTML/PDF/images) and media hashes.
+
 - Version edited posts and clarify whether counters reflect the time of collection.
+
 - Tag language and detect character encodings to avoid search errors.
+
 - Model data as a graph (nodes: accounts/posts/locations; edges: interactions) to facilitate community analysis.

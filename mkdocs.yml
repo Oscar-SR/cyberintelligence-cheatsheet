@@ -15,9 +15,10 @@ nav:
       - Overview: socmint/index.md
       - Metadata: socmint/metadata.md
       - Tools: socmint/tools.md
-  - Deep Web:
-      - Overview: deep-web/index.md
-      - Tools: deep-web/tools.md
+  - Dark Web:
+      - Overview: dark-web/index.md
+      - Types of sites: dark-web/types-of-sites.md
+      - Tools: dark-web/tools.md
   - References: references.md
 
 theme:
