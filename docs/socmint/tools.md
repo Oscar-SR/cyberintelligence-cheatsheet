@@ -69,7 +69,7 @@ Media monitoring tools aggregate and analyze digital news sources at local, nati
 | **Description** | Technical analysis tool for audio and video files, providing detailed information about codecs, bitrates, containers, and timestamps. |
 | **Access** | Website: [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo) <br> Repository: [https://github.com/MediaArea/MediaInfo](https://github.com/MediaArea/MediaInfo) |
 | **Key Features** | <ul><li>Detailed codec and container inspection</li><li>Supports audio, video, and subtitle streams</li><li>CLI and GUI versions available</li><li>Commonly used in media forensics</li></ul> |
-| **License** | Open Source (BSD 2-Clause) |
+| **License** | Open Source (BSD 2-Clause License) |
 
 | <h2>FFmpeg / FFprobe</h2> | |
 |------------------|---|

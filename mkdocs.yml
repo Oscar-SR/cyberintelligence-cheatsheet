@@ -8,7 +8,7 @@ nav:
       - Intelligence cycle: threat-intelligence/intelligence-cycle.md
   - OSINT:
       - Overview: osint/index.md
-      - Limitations and ethical considerations: osint/limitations-and-ethical-considerations.md
+      - Limitations and ethics: osint/limitations-and-ethics.md
       - Tools: osint/tools.md
   - SOCMINT:
       - Overview: socmint/index.md

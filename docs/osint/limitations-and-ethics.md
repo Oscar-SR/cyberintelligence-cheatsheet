@@ -1,4 +1,4 @@
-# Limitations and ethical considerations
+# Limitations and ethics
 
 ## Tecnical challenges
 
