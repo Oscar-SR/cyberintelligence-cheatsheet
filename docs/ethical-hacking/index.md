@@ -1,1 +1,1 @@
-# Ethical-hacking
+# Ethical hacking
