@@ -46,4 +46,4 @@ Currently, social media intelligence relies on a mosaic of environments, each wi
 
 Meanwhile, federated networks like **Mastodon** or **Bluesky** expand the spectrum with distributed search and lower centralization and, in some geographic contexts, regional platforms (e.g., **VK, Weibo**) can be critical for coverage.
 
-![Social media collection](../assets/social-media-collection.png "Social media collection")
+![Social media collection](../../assets/social-media-collection.png "Social media collection")

@@ -8,7 +8,7 @@
 
 - **Dark Web**: An intentionally hidden subset of the deep web, accessible through specific networks/software (e.g., Tor, I2P, Freenet). Its services do not use public DNS nor are they indexed by traditional search engines. The dark web provides enhanced anonymity for users and operators, making it attractive for both legitimate uses (privacy, freedom of expression, journalism) and illicit activities.
 
-![Web diagram](../assets/web-diagram.png "Web diagram"){width=400px}
+![Web diagram](../../assets/web-diagram.png "Web diagram"){width=400px}
 
 ## Access networks
 

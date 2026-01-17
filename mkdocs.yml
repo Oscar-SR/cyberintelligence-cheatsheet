@@ -1,25 +1,36 @@
-site_name: Cyberintelligence cheatsheet
-site_url: https://sitename.example
+site_name: CyberOps Cheatsheet
+site_url: oscar-sr.github.io/cyberops-cheatsheet/
 
 nav:
-  - Introduction: index.md
-  - Threat intelligence:
-      - Overview: threat-intelligence/index.md
-      - Intelligence cycle: threat-intelligence/intelligence-cycle.md
-  - OSINT:
-      - Overview: osint/index.md
-      - Limitations and ethics: osint/limitations-and-ethics.md
-      - Tools: osint/tools.md
-  - SOCMINT:
-      - Overview: socmint/index.md
-      - Metadata: socmint/metadata.md
-      - Tools: socmint/tools.md
-  - Dark Web:
-      - Overview: dark-web/index.md
-      - Types of sites: dark-web/types-of-sites.md
-      - Tools: dark-web/tools.md
-  - Historical facts: historical-facts.md
-  - References: references.md
+  - Home: index.md
+  - Cyberintelligence:
+      - Introduction: cyberintelligence/index.md
+
+      - Threat intelligence:
+          - Overview: cyberintelligence/threat-intelligence/index.md
+          - Intelligence cycle: cyberintelligence/threat-intelligence/intelligence-cycle.md
+
+      - OSINT:
+          - Overview: cyberintelligence/osint/index.md
+          - Limitations and ethics: cyberintelligence/osint/limitations-and-ethics.md
+
+      - SOCMINT:
+          - Overview: cyberintelligence/socmint/index.md
+          - Metadata: cyberintelligence/socmint/metadata.md
+
+      - Dark Web:
+          - Overview: cyberintelligence/dark-web/index.md
+          - Types of sites: cyberintelligence/dark-web/types-of-sites.md
+
+      - Tools: cyberintelligence/tools.md
+      - Historical facts: cyberintelligence/historical-facts.md
+      - References: cyberintelligence/references.md
+  - Ethical hacking:
+      - Introduction: ethical-hacking/index.md
+  - Digital forensics:
+      - Introduction: digital-forensics/index.md
+  - Malware analysis:
+      - Introduction: malware-analysis/index.md
 
 theme:
   name: material
@@ -29,6 +40,7 @@ theme:
   logo: assets/logo.png
   favicon: assets/favicon.ico
   features:
+    - navigation.tabs
     - navigation.footer
   palette:
     # Dark Mode

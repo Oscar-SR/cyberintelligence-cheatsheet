@@ -25,6 +25,13 @@ Search engines provide broad access to indexed web content and are often the fir
 | **Key Features** | <ul><li>Web search results</li><li>Instant answers</li><li>Reduced user-based bias</li></ul> |
 | **License** | Free |
 
+| <h2>Tor Browser</h2> | |
+|--------------------|---|
+| **Description** | Privacy-focused web browser designed to access the Tor network, enabling anonymous communication and access to .onion services while reducing tracking and fingerprinting risks. |
+| **Access** | Web: [https://www.torproject.org](https://www.torproject.org) |
+| **Key Features** | <ul><li>Routes traffic through the Tor network</li><li>Built-in protections against tracking and fingerprinting</li><li>Supports access to .onion services</li><li>Includes security levels and HTTPS-first defaults</li></ul> |
+| **License** | Open Source (BSD 3-Clause License) |
+
 ## Vertical search engines
 
 Vertical search engines focus on a specific type of data or domain, offering deeper and more specialized results than general-purpose search engines. In OSINT, they are essential for reducing information overload and retrieving high-signal data such as exposed services, images, social media content, or historical web snapshots.
@@ -58,6 +65,13 @@ Vertical search engines focus on a specific type of data or domain, offering dee
 | **Key Features** | <ul><li>Search and filter exposed services by banner, port, or vulnerability</li><li>Command-line interface and API for automation and integration</li><li>Historical data and monitoring of infrastructure changes</li></ul> |
 | **License** | Freemium |
 
+| <h2>Ahmia</h2> | |
+|----------------|---|
+| **Description** | Search engine designed to index publicly accessible Tor (.onion) services, with a focus on transparency and abuse reduction. Commonly used for discovery and initial reconnaissance of dark web content. |
+| **Access** | Web: [https://ahmia.fi](https://ahmia.fi) |
+| **Key Features** | <ul><li>Indexes reachable .onion services</li><li>Filters known abusive or illegal content</li><li>Provides both clearnet and Tor-accessible interfaces</li><li>Useful for initial discovery and mapping of Tor sites</li></ul> |
+| **License** | Open Source (BSD 3-Clause License) |
+
 ## Web archives
 
 Web archives preserve historical versions of websites and online content, allowing analysts to examine how information has changed over time. They are particularly valuable for attribution, timeline reconstruction, and recovering deleted or altered content that is no longer available on the live web.
@@ -90,6 +104,46 @@ Web archives preserve historical versions of websites and online content, allowi
 | **Access** | Web: [https://commoncrawl.org](https://commoncrawl.org) |
 | **Key Features** | <ul><li>HTML content</li><li>Web metadata</li><li>Large-scale historical datasets</li></ul> |
 | **License** | Open source |
+
+| <h2>archive.ph</h2> | |
+|--------------------|---|
+| **Description** | Web archiving service that captures snapshots of social media web pages, preserving content even if the original is removed. |
+| **Access** | Web: [https://archive.ph](https://archive.ph) |
+| **Key Features** | <ul><li>On-demand page snapshots</li><li>Permanent links to archived pages</li><li>Content preservation for deleted/modified social media</li></ul> |
+| **License** | Free |
+
+## Sentiment analysis
+
+| <h2>BERT / RoBERTa</h2> | |
+|-------------------------|---|
+| **Description** | Advanced transformer-based NLP models used for high-accuracy sentiment analysis and contextual understanding of social media content. |
+| **Access** | Web: [https://pypi.org/project/fast-bert/](https://pypi.org/project/fast-bert/) |
+| **Key Features** | <ul><li>Deep contextual understanding</li><li>High sentiment classification accuracy</li><li>Handles sarcasm, negation, and complex language</li><li>Can be fine-tuned for SOCMINT-specific domains</li></ul> |
+| **License** | Open Source |
+
+
+| <h2>Flair</h2> | |
+|----------------|---|
+| **Description** | NLP framework that provides efficient sentiment analysis using contextual string embeddings, suitable for real-time social media monitoring. |
+| **Access** | Repository: [https://github.com/flairNLP/flair](https://github.com/flairNLP/flair) |
+| **Key Features** | <ul><li>Good balance between accuracy and performance</li><li>Fast inference compared to transformers</li><li>Easy integration into SOCMINT pipelines</li><li>Supports multiple languages</li></ul> |
+| **License** | Open Source (MIT License) |
+
+
+| <h2>VADER</h2> | |
+|----------------|---|
+| **Description** | Lexicon and rule-based sentiment analysis tool optimized for social media language and short informal texts. |
+| **Access** | Repository: [https://github.com/cjhutto/vaderSentiment](https://github.com/cjhutto/vaderSentiment) |
+| **Key Features** | <ul><li>Optimized for social media text</li><li>Handles emojis, slang, and punctuation</li><li>Very fast processing speed</li><li>No training required</li></ul> |
+| **License** | Open Source (MIT License) |
+
+
+| <h2>TextBlob</h2> | |
+|-------------------|---|
+| **Description** | Simple NLP library providing basic sentiment analysis, mainly used for rapid prototyping and exploratory analysis. |
+| **Access** | Web: [https://textblob.readthedocs.io/en/dev/](https://textblob.readthedocs.io/en/dev/) <br> Repository: [https://github.com/sloria/TextBlob](https://github.com/sloria/TextBlob) |
+| **Key Features** | <ul><li>Very easy to use</li><li>Lightweight and fast</li><li>Good for educational or prototype SOCMINT projects</li></ul> |
+| **License** | Open Source (MIT License) |
 
 ## Government records
 
@@ -173,6 +227,15 @@ Media monitoring tools aggregate and analyze digital news sources at local, nati
 | **Key Features** | <ul><li>Global news coverage</li><li>Event metadata</li><li>Geopolitical indicators</li></ul> |
 | **License** | Free |
 
+Media monitoring tools aggregate and analyze digital news sources at local, national, and global levels. They enable continuous tracking of events, narratives, and trends, and support large-scale analysis of media coverage, making them valuable for situational awareness and strategic intelligence.
+
+| <h2>BRAND24</h2> | |
+|------------------|---|
+| **Description** | Social listening and online brand reputation management tool that tracks mentions across platforms. |
+| **Access** | Web: [https://brand24.com](https://brand24.com) |
+| **Key Features** | <ul><li>Real-time social mentions tracking</li><li>Sentiment analysis</li><li>Influencer identification</li></ul> |
+| **License** | Commercial (SaaS) |
+
 ## GEOINT
 
 GEOINT tools leverage geospatial data such as satellite imagery, sensor feeds, and location-based tracking systems. These sources allow analysts to verify locations, monitor physical movements, and correlate events in the real world with digital information.
@@ -233,6 +296,43 @@ People search tools focus on identifying and correlating information related to 
 | **Access** | Repository: [https://github.com/laramies/theHarvester](https://github.com/laramies/theHarvester) |
 | **Key Features** | <ul><li>Rapid discovery of email addresses and subdomains</li><li>Support for multiple search engines and data sources</li><li>Lightweight and easy integration into reconnaissance workflows</li></ul> |
 | **License** | Open source |
+
+## Metadata analysis
+
+| <h2>ExifTool</h2> | |
+|------------------|---|
+| **Description** | De facto standard for reading, writing, and normalizing EXIF, XMP, and IPTC metadata across a wide range of file formats. |
+| **Access** | Website: [https://exiftool.org/](https://exiftool.org/) <br> Repository: [https://github.com/exiftool/exiftool](https://github.com/exiftool/exiftool) |
+| **Key Features** | <ul><li>Supports hundreds of file formats</li><li>Read, write, and delete metadata</li><li>Highly scriptable and automation-friendly</li><li>Widely used in digital forensics and OSINT</li></ul> |
+| **License** | Open Source (GPL 3.0) |
+
+| <h2>MediaInfo</h2> | |
+|------------------|---|
+| **Description** | Technical analysis tool for audio and video files, providing detailed information about codecs, bitrates, containers, and timestamps. |
+| **Access** | Website: [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo) <br> Repository: [https://github.com/MediaArea/MediaInfo](https://github.com/MediaArea/MediaInfo) |
+| **Key Features** | <ul><li>Detailed codec and container inspection</li><li>Supports audio, video, and subtitle streams</li><li>CLI and GUI versions available</li><li>Commonly used in media forensics</li></ul> |
+| **License** | Open Source (BSD 2-Clause License) |
+
+| <h2>FFmpeg / FFprobe</h2> | |
+|------------------|---|
+| **Description** | Comprehensive multimedia framework for inspecting, processing, and extracting metadata, keyframes, and media streams. |
+| **Access** | Website: [https://ffmpeg.org/](https://ffmpeg.org/) <br> Repository: [https://git.ffmpeg.org/ffmpeg.git](https://git.ffmpeg.org/ffmpeg.git) |
+| **Key Features** | <ul><li>Extract and inspect detailed media metadata</li><li>Keyframe and stream analysis with FFprobe</li><li>Supports virtually all audio/video formats</li><li>Powerful CLI for forensic workflows</li></ul> |
+| **License** | Open Source (LGPL and GPL) |
+
+| <h2>MAT2</h2> | |
+|---------------------------------------------|---|
+| **Description** | Tool designed to detect and remove metadata from files before sharing, helping to prevent unintentional information disclosure. |
+| **Access** | Repository: [https://github.com/tpet/mat2](https://github.com/tpet/mat2) |
+| **Key Features** | <ul><li>Removes metadata from images, documents, audio, and video</li><li>Focus on privacy and operational security</li><li>CLI and GUI versions available</li><li>Used by journalists and activists</li></ul> |
+| **License** | Open Source (LGPL 3.0) |
+
+| <h2>XnView MP</h2> | |
+|------------------|---|
+| **Description** | Cross-platform media viewer with basic EXIF/IPTC metadata viewing and editing capabilities. |
+| **Access** | Website: [https://www.xnview.com/en/xnviewmp/](https://www.xnview.com/en/xnviewmp/) |
+| **Key Features** | <ul><li>View and edit basic EXIF/IPTC metadata</li><li>Supports a large number of image formats</li><li>Batch processing capabilities</li><li>User-friendly graphical interface</li></ul> |
+| **License** | Freemium |
 
 ## General purpose
 

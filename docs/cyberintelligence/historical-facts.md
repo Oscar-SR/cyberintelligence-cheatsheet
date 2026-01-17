@@ -32,7 +32,7 @@ Finally, the scandal caused Cambridge Analytica to lose multiple clients and fac
 
 In a small village in Spain (Tajueco), an image captured by a Google Street View car played an unexpected role in a police investigation. The photo, taken in October 2024, showed a man leaning over the trunk of a car while placing a large bundle—suspiciously resembling a body—inside it. That image reached the National Police, who used it as one of several clues to make progress in a disappearance case dating back to November 2023.
 
-![Image captured by Google Steet View](./assets/google-street-view.jpeg "Image captured by Google Steet View")
+![Image captured by Google Steet View](../assets/google-street-view.jpeg "Image captured by Google Steet View")
 
 The investigation began when a family member reported the disappearance of a man of Cuban origin. Suspicious messages sent from his phone led investigators to believe that something was wrong, prompting the opening of a formal investigation.
 
