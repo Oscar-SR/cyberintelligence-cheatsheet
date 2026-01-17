@@ -32,6 +32,7 @@ nav:
 
       - Fundamentals:
           - Overview: ethical-hacking/fundamentals/index.md
+          - Methodologies: ethical-hacking/fundamentals/methodologies.md
 
   - Digital forensics:
       - Introduction: digital-forensics/index.md
